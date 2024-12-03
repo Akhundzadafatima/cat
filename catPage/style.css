@@ -119,7 +119,7 @@ ul {
   content: "";
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
+  /* transform: translateY(-50%); */
   width: 40%;
   height: 2px;
 
@@ -130,7 +130,7 @@ ul {
   content: "";
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
+  /* transform: translateY(-50%); */
   width: 40%;
   height: 2px;
 
@@ -141,7 +141,7 @@ ul {
   content: "";
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
+  /* transform: translateY(-50%); */
   width: 40%;
   height: 2px;
 
@@ -328,7 +328,7 @@ ul {
   width: 710px;
   height: 430px;
   position: absolute;
-  top: 690px;
+  top: 700px;
   left: 0;
   transform: scaleX(-1);
 }
@@ -503,7 +503,7 @@ ul {
     justify-content: center;
   }
   .box {
-    width: 200px;
+    width: 70%;
     height: 220px;
   }
   .box img {
@@ -625,5 +625,8 @@ ul {
     position: absolute;
     bottom: -110px;
     left: 50%;
+  }
+  .smile{
+    display: none;
   }
 }
